@@ -15,6 +15,8 @@
 		26119A0B1DD4C4370072FBCC /* Fibonacci.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26119A0A1DD4C4370072FBCC /* Fibonacci.swift */; };
 		26119A131DD4C4680072FBCC /* AlgorithmLessonsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26119A121DD4C4680072FBCC /* AlgorithmLessonsTests.swift */; };
 		26119A1B1DD4C4930072FBCC /* FibonacciTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26119A1A1DD4C4930072FBCC /* FibonacciTests.swift */; };
+		26119A1D1DD4C5C70072FBCC /* ReverseString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26119A1C1DD4C5C70072FBCC /* ReverseString.swift */; };
+		26119A1F1DD4C60E0072FBCC /* ReverseStringTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26119A1E1DD4C60E0072FBCC /* ReverseStringTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		26119A121DD4C4680072FBCC /* AlgorithmLessonsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlgorithmLessonsTests.swift; sourceTree = "<group>"; };
 		26119A141DD4C4680072FBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		26119A1A1DD4C4930072FBCC /* FibonacciTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FibonacciTests.swift; sourceTree = "<group>"; };
+		26119A1C1DD4C5C70072FBCC /* ReverseString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseString.swift; sourceTree = "<group>"; };
+		26119A1E1DD4C60E0072FBCC /* ReverseStringTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseStringTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 			children = (
 				26119A091DD4C2420072FBCC /* Supporting files */,
 				26119A0A1DD4C4370072FBCC /* Fibonacci.swift */,
+				26119A1C1DD4C5C70072FBCC /* ReverseString.swift */,
 			);
 			path = AlgorithmLessons;
 			sourceTree = "<group>";
@@ -105,6 +110,7 @@
 			children = (
 				26119A121DD4C4680072FBCC /* AlgorithmLessonsTests.swift */,
 				26119A1A1DD4C4930072FBCC /* FibonacciTests.swift */,
+				26119A1E1DD4C60E0072FBCC /* ReverseStringTest.swift */,
 				26119A141DD4C4680072FBCC /* Info.plist */,
 			);
 			path = AlgorithmLessonsTests;
@@ -214,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				261199FA1DD4C2100072FBCC /* ViewController.swift in Sources */,
+				26119A1D1DD4C5C70072FBCC /* ReverseString.swift in Sources */,
 				261199F81DD4C2100072FBCC /* AppDelegate.swift in Sources */,
 				26119A0B1DD4C4370072FBCC /* Fibonacci.swift in Sources */,
 			);
@@ -223,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26119A1F1DD4C60E0072FBCC /* ReverseStringTest.swift in Sources */,
 				26119A1B1DD4C4930072FBCC /* FibonacciTests.swift in Sources */,
 				26119A131DD4C4680072FBCC /* AlgorithmLessonsTests.swift in Sources */,
 			);
